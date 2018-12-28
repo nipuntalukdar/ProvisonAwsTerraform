@@ -1,0 +1,5 @@
+cluster.name: escl
+discovery.zen.minimum_master_nodes: 2
+discovery.zen.ping.unicast.hosts: [{{{SEEDS}}}]
+gateway.recover_after_nodes: 2
+network.host: {{{LISTEN_ADDRESS}}}
